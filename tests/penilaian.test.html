@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Uji Penilaian · LimasKu</title>
+  <style>
+    body { font: 16px/1.5 system-ui, sans-serif; margin: 0; padding: 16px; background: #fff; color: #1f2937; }
+    .lulus { color: #15803d; } .gagal { color: #b91c1c; font-weight: 700; }
+    pre { white-space: pre-wrap; margin: 0 0 0 1.5em; color: #b91c1c; }
+  </style>
+</head>
+<body>
+  <h1>Uji Penilaian</h1>
+  <ul id="hasil"></ul>
+  <p id="ringkas"></p>
+  <script src="../js/util.js"></script>
+  <script src="../js/penilaian.js"></script>
+  <script src="../js/data/soal.js"></script>
+  <script src="../js/kalkulator.js"></script>
+  <script src="penilaian.test.js"></script>
+  <script>
+    const hasil = jalankanTes(LK);
+    const ul = document.getElementById('hasil');
+    hasil.forEach(function (h) {
+      const li = document.createElement('li');
+      li.className = h.lulus ? 'lulus' : 'gagal';
+      li.textContent = (h.lulus ? '✓ ' : '✗ ') + h.nama;
+      if (h.pesan) { const p = document.createElement('pre'); p.textContent = h.pesan; li.appendChild(p); }
+      ul.appendChild(li);
+    });
+    const lulus = hasil.filter(function (h) { return h.lulus; }).length;
+    document.getElementById('ringkas').textContent = lulus + '/' + hasil.length + ' uji lulus';
+  </script>
+</body>
+</html>

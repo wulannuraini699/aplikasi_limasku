@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#F6F7F9"/>
+  <!-- alas (biru), sisi tegak depan & samping (oranye), tinggi (ungu) -->
+  <polygon points="120,360 330,360 400,310 190,310" fill="#2563EB" fill-opacity="0.18"/>
+  <polygon points="256,110 330,360 400,310" fill="#C2410C" fill-opacity="0.22"/>
+  <polygon points="256,110 120,360 330,360" fill="#C2410C" fill-opacity="0.12"/>
+  <g fill="none" stroke="#1F2937" stroke-width="10" stroke-linejoin="round" stroke-linecap="round">
+    <line x1="256" y1="110" x2="120" y2="360"/>
+    <line x1="256" y1="110" x2="330" y2="360"/>
+    <line x1="256" y1="110" x2="400" y2="310"/>
+    <line x1="330" y1="360" x2="400" y2="310"/>
+  </g>
+  <g fill="none" stroke="#6B7280" stroke-width="6" stroke-dasharray="14 12">
+    <line x1="120" y1="360" x2="190" y2="310"/>
+    <line x1="190" y1="310" x2="400" y2="310"/>
+  </g>
+  <line x1="120" y1="360" x2="330" y2="360" stroke="#2563EB" stroke-width="14" stroke-linecap="round"/>
+  <line x1="256" y1="110" x2="260" y2="335" stroke="#7C3AED" stroke-width="10" stroke-dasharray="20 12"/>
+  <line x1="256" y1="110" x2="225" y2="360" stroke="#C2410C" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="256" cy="110" r="12" fill="#1F2937"/>
+</svg>

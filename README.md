@@ -28,6 +28,17 @@ lalu buka `http://localhost:8000`.
 **Mencoba di HP:** unggah folder ini ke GitHub, lalu aktifkan GitHub Pages
 (Settings → Pages → Branch `main` / root). Bagikan tautannya ke siswa.
 
+## Perangkat yang Didukung
+
+- **HP Android** (Chrome, Samsung Internet, browser bawaan), **iPhone/iPad** (Safari), **laptop/PC**
+  (Chrome, Edge, Firefox, Safari). Sudah diuji pada lebar layar 320 px sampai 1366 px.
+- Untuk browser lama disediakan pengganti fitur (`js/kompat.js`).
+- **Bisa dipasang seperti aplikasi** dan **tetap jalan tanpa internet** setelah dibuka sekali:
+  - Android (Chrome): menu ⋮ → *Tambahkan ke layar utama* / *Instal aplikasi*.
+  - iPhone (Safari): tombol Bagikan → *Tambah ke Layar Utama*.
+- Mode offline hanya aktif bila dibuka lewat alamat `https://` (GitHub Pages) atau `http://localhost`,
+  bukan dari klik dua kali file. Setelah mengubah daftar file, naikkan `VERSI` di `sw.js`.
+
 ## Menjalankan Uji
 
 ```

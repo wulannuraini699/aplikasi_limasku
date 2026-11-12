@@ -6,7 +6,7 @@ Setiap fase menghasilkan sesuatu yang bisa dicoba di HP. Centang bila selesai.
 - [x] Isi temuan wawancara di PRD.md §3 dan cocokkan dengan daftar fitur
 - [x] Putuskan ketidaksesuaian rubrik (PRD.md §9) dan pertanyaan terbuka (PRD.md §10)
 - [x] Tentukan nama aplikasi (LimasKu)
-- [ ] Buat repo GitHub baru + aktifkan GitHub Pages
+- [x] Buat repo GitHub baru + aktifkan GitHub Pages → https://wulannuraini699.github.io/aplikasi_limasku/
 
 ## Fase 1 — Kerangka dan Data
 - [x] `index.html`, `css/style.css` (token warna dari DESAIN.md §3), router hash di `js/app.js`

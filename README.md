@@ -4,6 +4,8 @@ Aplikasi web untuk siswa SMP kelas VIII belajar bangun ruang **limas** langkah d
 dirancang dengan prinsip *Cognitive Load Theory* untuk melatih **mathematical literacy**.
 Berjalan di HP dan browser laptop, tanpa server, tanpa instalasi.
 
+**Buka aplikasi:** https://wulannuraini699.github.io/aplikasi_limasku/
+
 ## Fitur
 
 | Menu | Isi |
@@ -25,8 +27,8 @@ python -m http.server 8000
 ```
 lalu buka `http://localhost:8000`.
 
-**Mencoba di HP:** unggah folder ini ke GitHub, lalu aktifkan GitHub Pages
-(Settings → Pages → Branch `main` / root). Bagikan tautannya ke siswa.
+**Di HP:** buka https://wulannuraini699.github.io/aplikasi_limasku/ — situs diterbitkan otomatis
+oleh GitHub Pages dari branch `main`. Setiap `git push` akan memperbarui aplikasi dalam 1–2 menit.
 
 ## Perangkat yang Didukung
 
